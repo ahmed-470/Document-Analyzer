@@ -1,0 +1,10 @@
+streamlit
+openai
+tiktoken
+faiss-cpu
+sentence-transformers
+numpy
+pydantic
+pytest
+datasets
+scikit-learn
