@@ -19,9 +19,14 @@ Built with Streamlit for UI, OpenAI APIs for LLM and embeddings, and a modular a
 
 ---
 
-## Run the App (Docker)
+
+## Run the App via Docker
+
 ```bash
+# Build the image
 docker build -t rag-app .
+
+# Run the container (app available at http://localhost:8080)
 docker run -p 8080:8080 rag-app
 ```
 Then visit `http://localhost:8080`
